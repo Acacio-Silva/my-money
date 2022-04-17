@@ -11,7 +11,7 @@ export function Header({onOpenNewTransactionModal}:HeaderTypes){
     return(
         <Container>
             <Content>
-            <h1>Logo</h1>
+            <h1>My Money</h1>
             <button onClick={onOpenNewTransactionModal}>New Transaction</button>
            
             </Content>
