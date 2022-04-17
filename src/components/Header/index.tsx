@@ -12,7 +12,7 @@ export function Header({onOpenNewTransactionModal}:HeaderTypes){
         <Container>
             <Content>
             <h1>My Money</h1>
-            <button onClick={onOpenNewTransactionModal}>New Transaction</button>
+            <button onClick={onOpenNewTransactionModal}>Nova Transação</button>
            
             </Content>
         </Container>
