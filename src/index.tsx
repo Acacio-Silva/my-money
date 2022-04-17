@@ -14,18 +14,18 @@ createServer({
           id: 1,
           title: 'Desenvolvimento de site',
           type: 'deposit',
-          category: 'Dev',
+          category: 'Freela',
           amount: 1000,
-          createdAt: new Date('2021-06-01 08:00:00')
+          createdAt: new Date('2022-03-01 08:00:00')
         },
 
         {
           id: 2,
           title: 'Aluguel',
           type: 'withdraw',
-          category: 'Casa',
-          amount: 350,
-          createdAt: new Date('2021-06-25 13:00:00')
+          category: 'Desdepesas de Casa',
+          amount: 500,
+          createdAt: new Date('2022-03-25 13:00:00')
         }
       ]
     });
