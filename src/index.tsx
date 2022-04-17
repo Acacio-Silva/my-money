@@ -10,23 +10,7 @@ createServer({
   seeds(server) {
     server.db.loadData({
       transactions: [
-        {
-          id: 1,
-          title: 'Desenvolvimento de site',
-          type: 'deposit',
-          category: 'Freela',
-          amount: 1000,
-          createdAt: new Date('2022-03-01 08:00:00')
-        },
-
-        {
-          id: 2,
-          title: 'Aluguel',
-          type: 'withdraw',
-          category: 'Desdepesas de Casa',
-          amount: 500,
-          createdAt: new Date('2022-03-25 13:00:00')
-        }
+        
       ]
     });
   },
