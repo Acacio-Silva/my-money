@@ -13,6 +13,10 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 
+    h1{
+    color: #FFF;
+    }
+
     button{
         font-size: 1rem;
         color: #FFF;
